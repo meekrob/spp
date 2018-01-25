@@ -30,7 +30,7 @@ require(devtools)
 devtools::install_github('meekrob/spp', build_vignettes = FALSE)
 ```
 
-Preferably, download this package using `git clone` and the url of this repository, it should create a directory called spp. In the same directory, start `R`, and do
+**Preferably**, download this package using `git clone` and the url of this repository, it should create a directory called spp. In the same directory, start `R`, and do
 ```
 .libPaths('/projects/username@colostate.edu/R') # Set your local install path
 install.packages("spp", repos=NULL) # Should install dependancies
@@ -43,7 +43,7 @@ In R:
 .libPaths('/projects/username@colostate.edu/R') # Set your local install path
 require(spp)
 ```
-If the require succeeds without reporting errors, the installation worked.
+If the `require` succeeds without reporting errors, the installation worked.
 
 ---
 Original README
