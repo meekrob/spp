@@ -6,10 +6,14 @@ As of Thu Jan 25 11:08:56 MST 2018
 
 ### the following modules must be loaded.
 `ml` is a shortcut for `module load`.
-    * ml intel
-    * ml impi
-    * ml boost
-    * ml R
+
+* ml intel
+
+* ml impi
+
+* ml boost
+
+* ml R
 
 ### Locally installing in R
 
